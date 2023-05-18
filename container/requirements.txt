@@ -21,3 +21,4 @@ chaostoolkit-slack
 
 # Not included because package is way too large and bloat this image
 #chaostoolkit-ansible
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
