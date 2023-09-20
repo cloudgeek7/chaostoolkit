@@ -21,3 +21,4 @@ chaostoolkit-slack
 
 # Not included because package is way too large and bloat this image
 #chaostoolkit-ansible
+gevent>=23.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
